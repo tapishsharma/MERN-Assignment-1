@@ -1,0 +1,20 @@
+.img-12{
+display: flex;
+justify-content:center;
+flex-direction: column;
+
+}
+.img-13{
+ margin-left: 300px;
+ margin-right: 300px;
+ cursor: pointer;
+ border: 3px solid violet;
+
+}
+.img-12:hover{
+    transform: translateY(-10px);
+}
+.news-up{
+ display: flex;
+ justify-content: column;
+}

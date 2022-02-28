@@ -10,19 +10,19 @@ export default function Menu({open,setopen}) {
           </li>
           
           <li onClick={()=>setopen(!open)}>
-              <a href="#portfolio">About Me</a>
+              <a href="#portfolio">Placement</a>
           </li>
 
           <li onClick={()=>setopen(!open)}>
-              <a href="#skills">Skills</a>
+              <a href="#skills">Recruiters</a>
           </li>
 
           <li onClick={()=>setopen(!open)}>
-              <a href="#works">My Works</a>
+              <a href="#works">CDC</a>
           </li>
 
           <li onClick={()=>setopen(!open)}>
-              <a href="#contact">Contact Me</a>
+              <a href="#contact">Contacts</a>
           </li>
       </ul>
     </div>

@@ -10,6 +10,8 @@ import img5 from "./assests/img5.jpg"
 import Tachyons from "tachyons"
 import Menu from "./components/menu/Menu"
 import { useState } from 'react';
+import News from './components/News';
+import Placement from './components/placement';
 
 function App() {
   const [menuopen,setmenuopen]=useState(false)
@@ -31,7 +33,11 @@ function App() {
   <Card img={img5}/>
   </div>
 </div>
+
 <Info/>
+<Placement/>
+<News/>
+
 </div>
   );
 }
